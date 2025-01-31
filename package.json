@@ -1,0 +1,19 @@
+{
+  "name": "docker-test",
+  "version": "1.0.0",
+  "description": "Just testing docker images and deep dive into Docker.",
+  "license": "ISC",
+  "author": "hritik",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon test",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
